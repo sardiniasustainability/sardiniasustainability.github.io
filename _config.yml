@@ -29,8 +29,6 @@ github_username:  sardiniasustainability
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -55,3 +53,17 @@ plugins:
 languages: ["en", "it", "sc"]
 locale : "en-UK"
 default_locale_in_subfolder: true
+
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  # - jekyll-sitemap
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
