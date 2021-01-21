@@ -1,0 +1,9 @@
+global:
+  english: Eng 
+  italian: Ita
+  sardinian: Srd
+pages:
+  home: Domu
+  about: Ita
+titles:
+  pagination: Paginatzioni

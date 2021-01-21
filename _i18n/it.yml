@@ -1,0 +1,9 @@
+global:
+  english: Eng 
+  italian: Ita
+  sardinian: Srd
+pages:
+  home: Casa
+  about: About
+titles:
+  pagination: Pagination
