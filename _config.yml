@@ -21,8 +21,7 @@
 title: Sardinia Computational Sustainability Initiative
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Computing for Sardinia: towards a sustainable environment, economy, and society. 
-  Not for profit.
+  Computing for Sardinia: towards a sustainable environment, economy, and society. Not for profit.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sardiniasustainability.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sardiniasustainability
@@ -32,6 +31,7 @@ github_username:  sardiniasustainability
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-multiple-languages-plugin
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -52,3 +52,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+languages: ["en", "it", "sc"]
+locale : "en-UK"
+default_locale_in_subfolder: true
